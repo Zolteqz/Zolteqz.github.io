@@ -31,25 +31,30 @@ h2 {
     color: #333;
 }
 
-ul {
+.quiz-list {
     list-style: none;
     padding: 0;
 }
 
-li {
-    margin-bottom: 10px;
+.quiz-item {
+    margin-bottom: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+.quiz-banner {
+    position: relative;
+}
+
+.quiz-banner img {
     width: 100%;
+    height: auto;
 }
 
-footer p {
+.quiz-banner h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
     margin: 0;
 }
